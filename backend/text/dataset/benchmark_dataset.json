@@ -1,0 +1,92 @@
+[
+  {
+    "id": "human_1_conversational",
+    "category": "Human",
+    "subcategory": "Conversational",
+    "text": "Honestly, I didn't expect the traffic to be this bad today. We ended up sitting on the freeway for like two hours just listening to the same Spotify playlist over and over again. By the time we actually got to the restaurant, our reservation was completely gone and we had to eat at this weird diner across the street. The food wasn't terrible, but the whole vibe was just off. Definitely not doing that drive on a Friday afternoon again.",
+    "expected_label": "Human",
+    "expected_humanized": false,
+    "expected_mixed": false
+  },
+  {
+    "id": "human_2_academic",
+    "category": "Human",
+    "subcategory": "Academic",
+    "text": "The pathogenesis of atherosclerosis involves a complex interplay between lipid metabolism, endothelial dysfunction, and chronic low-grade inflammation. While early models primarily focused on the passive accumulation of low-density lipoproteins (LDL) within the arterial intima, contemporary research demonstrates that macrophages actively phagocytize oxidized LDL, leading to the formation of foam cells. This dynamic process ultimately drives the progression of atherosclerotic plaques, suggesting that therapeutic interventions must target both lipid reduction and systemic inflammatory pathways.",
+    "expected_label": "Human",
+    "expected_humanized": false,
+    "expected_mixed": false
+  },
+  {
+    "id": "ai_1_gpt4o_standard",
+    "category": "AI",
+    "subcategory": "GPT-4o",
+    "text": "The rapid advancement of artificial intelligence represents a pivotal shift in modern technology, offering profound implications across various sectors. In healthcare, machine learning algorithms are revolutionizing diagnostic accuracy by analyzing complex medical imaging with unprecedented speed. Furthermore, in the financial industry, AI-driven predictive models enhance risk assessment and fraud detection capabilities. However, it is crucial to recognize the ethical challenges these technologies present, particularly regarding data privacy, algorithmic bias, and workforce displacement. Ultimately, fostering a collaborative approach between human expertise and AI capabilities will be essential to navigating this transformative era.",
+    "expected_label": "AI",
+    "expected_humanized": false,
+    "expected_mixed": false
+  },
+  {
+    "id": "ai_2_claude_nuanced",
+    "category": "AI",
+    "subcategory": "Claude",
+    "text": "When examining the transition to renewable energy infrastructure, we must acknowledge the fundamentally multifaceted nature of the challenge. The integration of solar and wind power into existing grids presents remarkable opportunities for decarbonization, yet it simultaneously introduces complex challenges related to intermittent generation and storage capacity. That said, the economic calculus is shifting rapidly. While initial capital expenditures for utility-scale battery systems remain substantial, the long-term operational efficiencies offer a compelling counterweight. Moving forward, policymakers must carefully balance aggressive climate targets with the practical realities of grid stability and equitable access to energy resources.",
+    "expected_label": "AI",
+    "expected_humanized": false,
+    "expected_mixed": false
+  },
+  {
+    "id": "humanized_1_quillbot",
+    "category": "Humanized",
+    "subcategory": "QuillBot Standard",
+    "text": "The swift progression of machine learning technologies indicates a significant change in current innovation, introducing deep effects across multiple industries. Within medical care, intelligent software is transforming how doctors diagnose illnesses by reviewing intricate medical scans much faster than before. Additionally, inside the banking sector, forecasting systems powered by AI improve how companies evaluate risks and spot fraudulent activities. Nevertheless, it is highly important to understand the moral issues these systems bring up, especially concerning the protection of personal information, unfair programming, and the loss of jobs.",
+    "expected_label": "AI",
+    "expected_humanized": true,
+    "expected_mixed": false
+  },
+  {
+    "id": "humanized_2_manual_edit",
+    "category": "Humanized",
+    "subcategory": "Manual Word Swaps",
+    "text": "The quick growth of AI is basically a huge deal right now. In hospitals, algorithms are changing how doctors figure out what's wrong with patients by looking at X-rays super fast. Also, in finance, predictive models help catch scammers. But honestly, we need to think about the ethics here, like data privacy and people losing their jobs. At the end of the day, getting humans and AI to work together is going to be the only way we get through this.",
+    "expected_label": "AI",
+    "expected_humanized": true,
+    "expected_mixed": false
+  },
+  {
+    "id": "mixed_1_human_then_ai",
+    "category": "Mixed",
+    "subcategory": "Human Intro + AI Body",
+    "text": "I've been thinking a lot lately about how fast things are changing at my workplace. Just last week, our manager announced that we'd be switching to a completely new automated system for processing client requests. Artificial intelligence has emerged as a foundational capability that enables organizations to process information more effectively, identify patterns within complex datasets, and generate insights that support strategic decision-making. These technologies allow for the automation of repetitive processes, delivering personalized experiences at scale. It's definitely going to take some getting used to, but I'm hoping it actually makes my day-to-day tasks a little less tedious.",
+    "expected_label": "Mixed",
+    "expected_humanized": false,
+    "expected_mixed": true
+  },
+  {
+    "id": "mixed_2_ai_sandwich",
+    "category": "Mixed",
+    "subcategory": "Human + AI + Human",
+    "text": "So we finally decided to book that trip to Japan we've been talking about for years. The growing integration of modern tourism with digital planning tools presents both remarkable opportunities and complex challenges, as travelers seek greater efficiency through automated itineraries while governments evaluate the implications of over-tourism on local economies and infrastructure. Anyway, we are flying out of LAX next Tuesday, and I still need to figure out how the rail pass works before we land in Tokyo.",
+    "expected_label": "Mixed",
+    "expected_humanized": false,
+    "expected_mixed": true
+  },
+  {
+    "id": "edge_1_non_native_speaker",
+    "category": "Human",
+    "subcategory": "ESL (Often misclassified as AI)",
+    "text": "I am writing to express my strong interest in the open position at your esteemed company. I have many experiences in software development and I always try to do my best in every project. It is very important to make good code that is clean and easy to read. Furthermore, I work very hard to learn new technologies so I can be a good team member. I hope you will consider my application for this job.",
+    "expected_label": "Human",
+    "expected_humanized": false,
+    "expected_mixed": false
+  },
+  {
+    "id": "edge_2_highly_prompted_ai",
+    "category": "AI",
+    "subcategory": "Prompted to be conversational",
+    "text": "Man, I gotta tell you, moving to a new city is way harder than people make it look on Instagram. I spent my entire Saturday trying to build an IKEA dresser, and let's just say the instructions were basically written in hieroglyphics. I ended up with three extra screws and a drawer that doesn't close all the way. It's frustrating, but I guess it's all part of the 'starting fresh' experience. Next time, I'm definitely paying someone else to assemble my furniture.",
+    "expected_label": "AI",
+    "expected_humanized": false,
+    "expected_mixed": false
+  }
+]

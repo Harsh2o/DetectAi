@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-background: 250 249 246;
+    --color-surface: 255 255 255;
+    --color-surface-variant: 244 241 234;
+    --color-surface-container: 232 229 223;
+    
+    --color-primary: 28 25 23;
+    --color-on-primary: 255 255 255;
+    --color-primary-variant: 68 64 60;
+    
+    --color-secondary: 96 96 90;
+    --color-secondary-variant: 168 162 158;
+    
+    --color-tertiary: 153 27 27;
+    --color-on-tertiary: 255 255 255;
+    
+    --color-on-surface: 28 25 23;
+    --color-on-surface-variant: 87 83 78;
+    
+    --color-error: 220 38 38;
+    --color-success: 22 101 52;
+    --color-warning: 217 119 6;
+  }
+
+  body {
+    @apply bg-background text-on-surface antialiased transition-colors duration-300;
+  }
+}
+
+.dark {
+  --color-background: 9 9 9 !important;
+  --color-surface: 19 19 19 !important;
+  --color-surface-variant: 29 29 29 !important;
+  --color-surface-container: 40 40 40 !important;
+  
+  --color-primary: 179 197 255 !important;
+  --color-on-primary: 0 24 73 !important;
+  --color-primary-variant: 50 68 120 !important;
+  
+  --color-secondary: 170 190 165 !important;
+  --color-secondary-variant: 42 63 39 !important;
+  
+  --color-tertiary: 255 180 171 !important;
+  --color-on-tertiary: 105 0 5 !important;
+  
+  --color-on-surface: 229 226 225 !important;
+  --color-on-surface-variant: 196 199 197 !important;
+  
+  --color-error: 255 180 171 !important;
+  --color-success: 129 201 149 !important;
+  --color-warning: 253 214 99 !important;
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-surface border border-surface-container shadow-lg;
+  }
+}
+
+@layer components {
+  .glass-overlay {
+    background-color: rgba(20, 20, 20, 0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+  }
+  .text-glow:focus {
+    box-shadow: inset 0 -2px 0 0 #b3c5ff;
+    outline: none;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+/* Ticker Animation */
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.ticker-track {
+  animation: ticker 30s linear infinite;
+  display: flex;
+  width: fit-content;
+}
