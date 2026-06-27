@@ -14,3 +14,4 @@ Pillow==10.3.0
 celery==5.4.0
 redis==5.0.4
 sqlalchemy==2.0.30
+nltk==3.8.1
