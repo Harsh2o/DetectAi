@@ -1,0 +1,51 @@
+# ==========================
+# DetectAi — Root .gitignore
+# ==========================
+
+# ---- OS & Editor ----
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+*.env
+!.env.example
+scans.db
+
+# ---- Node / Frontend ----
+node_modules/
+frontend/dist/
+frontend/.cache/
+.vercel/
+
+# ---- Datasets & Media (keep out of repo) ----
+Image Resources/
+video Resources/
+backend/audio_dataset/
+*.mp4
+*.wav
+*.jpeg
+*.jpg
+*.png
+*.webp
+# Allow specific committed assets
+!frontend/public/**
+!docs/assets/**
+
+# ---- Misc ----
+check/
+*.log
+.env.local
+.env.production
