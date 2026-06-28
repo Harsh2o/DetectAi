@@ -1,9 +1,3 @@
-<div align="center">
-
-<img src="docs/assets/github_banner.png" alt="DetectAi Banner" width="100%" />
-
-<br/>
-
 # 🔍 DetectAi
 
 ### The Human Standard
