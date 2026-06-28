@@ -153,7 +153,10 @@ graph TB
 
 ## 📁 Project Structure
 
-```
+<details>
+<summary><strong>Click to expand directory tree</strong></summary>
+
+```text
 detectai/
 ├── backend/                    # FastAPI application
 │   ├── main.py                 # App entrypoint & router registration
@@ -220,9 +223,10 @@ detectai/
 │   └── azure-deploy.yml        # Auto-deploy to Azure on push
 ├── .gitignore
 ├── CONTRIBUTING.md
-├── LICENSE                     # MIT License
+├── LICENSE                     # All Rights Reserved
 └── README.md                   # ← You are here
 ```
+</details>
 
 ---
 
