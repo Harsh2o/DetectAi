@@ -23,8 +23,7 @@ Catch ChatGPT essays, Midjourney images, Sora deepfakes, and ElevenLabs voice cl
 <br>
 
 <p align="center">
-  <!-- TODO: Replace with your actual animated GIF -->
-  <img src="https://via.placeholder.com/800x450/111827/ffffff?text=Add+10-second+Animated+GIF+Demo+Here" width="80%" alt="DetectAi Demo GIF" />
+  <img src="docs/assets/demo.gif" width="80%" alt="DetectAi Demo GIF" />
 </p>
 
 <h3 align="center">Dashboard Gallery</h3>
