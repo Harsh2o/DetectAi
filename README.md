@@ -28,10 +28,9 @@ Catch ChatGPT essays, Midjourney images, Sora deepfakes, and ElevenLabs voice cl
 
 <h3 align="center">Dashboard Gallery</h3>
 <p align="center">
-  <!-- TODO: Replace with actual screenshots of your app -->
-  <img src="https://via.placeholder.com/600x350/111827/ffffff?text=Dashboard+Screenshot+1" width="45%" alt="DetectAi UI" />
+  <img src="frontend/public/step1.png" width="45%" alt="DetectAi UI" />
   &nbsp;
-  <img src="https://via.placeholder.com/600x350/111827/ffffff?text=Dashboard+Screenshot+2" width="45%" alt="DetectAi Results" />
+  <img src="frontend/public/step2.png" width="45%" alt="DetectAi Results" />
 </p>
 
 ---
