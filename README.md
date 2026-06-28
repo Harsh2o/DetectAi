@@ -9,7 +9,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-dtectai.tech-blue?style=for-the-badge&logo=vercel)](https://dtectai.tech)
 [![API Docs](https://img.shields.io/badge/API_Docs-Swagger-green?style=for-the-badge&logo=swagger)](https://detectai-api-fsftcaf4hyfqhqfc.koreacentral-01.azurewebsites.net/docs)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+[![License: All Rights Reserved](https://img.shields.io/badge/License-All_Rights_Reserved-red?style=for-the-badge)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
 
@@ -280,7 +280,7 @@ The frontend auto-deploys via Vercel's GitHub integration. Connect your repo in 
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under **All Rights Reserved** — see the [LICENSE](LICENSE) file for details. You may view this code for educational purposes, but copying, deploying, or modifying it is strictly prohibited.
 
 ---
 
