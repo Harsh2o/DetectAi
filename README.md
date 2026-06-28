@@ -20,6 +20,21 @@ Catch ChatGPT essays, Midjourney images, Sora deepfakes, and ElevenLabs voice cl
 
 </div>
 
+<br>
+
+<p align="center">
+  <!-- TODO: Replace with your actual animated GIF -->
+  <img src="https://via.placeholder.com/800x450/111827/ffffff?text=Add+10-second+Animated+GIF+Demo+Here" width="80%" alt="DetectAi Demo GIF" />
+</p>
+
+<h3 align="center">Dashboard Gallery</h3>
+<p align="center">
+  <!-- TODO: Replace with actual screenshots of your app -->
+  <img src="https://via.placeholder.com/600x350/111827/ffffff?text=Dashboard+Screenshot+1" width="45%" alt="DetectAi UI" />
+  &nbsp;
+  <img src="https://via.placeholder.com/600x350/111827/ffffff?text=Dashboard+Screenshot+2" width="45%" alt="DetectAi Results" />
+</p>
+
 ---
 
 ## 🎯 The Problem
@@ -119,6 +134,14 @@ graph TB
 ---
 
 ## 🛠️ Tech Stack
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,vite,tailwind,js,python,fastapi,azure,github,docker,sqlite,redis,vercel&perline=6" alt="Tech Stack" />
+  </a>
+</p>
+
+<br>
 
 | Layer | Technology |
 |-------|-----------|
