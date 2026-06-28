@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "@clerk/clerk-react";
-import { Helmet } from "react-helmet-async";
+import SEO from "../components/SEO";
 import ThemeToggle from "../components/ThemeToggle";
 import Navbar from "../components/Navbar";
 import { seoConfig } from "../config/seoConfig";
@@ -165,10 +165,7 @@ export default function LandingPage({ toolType = "default" }) {
   return (
     <div className="min-h-screen bg-background flex flex-col font-body-md text-on-surface selection:bg-primary/10 selection:text-primary relative overflow-x-hidden">
       
-      <Helmet>
-        <title>{config.metaTitle}</title>
-        <meta name="description" content={config.description} />
-      </Helmet>
+      <SEO title={config.metaTitle} description={config.description} />
 
       {/* Modern NavBar */}
       <Navbar />

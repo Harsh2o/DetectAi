@@ -61,6 +61,13 @@ function App() {
               <Route path="/ai-image-detector" element={<LandingPage toolType="image" />} />
               <Route path="/ai-audio-detector" element={<LandingPage toolType="audio" />} />
               <Route path="/ai-video-detector" element={<LandingPage toolType="video" />} />
+              
+              {/* Long-Tail SEO Landing Pages */}
+              <Route path="/chatgpt-detector-for-teachers" element={<LandingPage toolType="chatgpt_detector_for_teachers" />} />
+              <Route path="/midjourney-image-checker" element={<LandingPage toolType="midjourney_image_checker" />} />
+              <Route path="/sora-deepfake-detector" element={<LandingPage toolType="sora_deepfake_detector" />} />
+              <Route path="/detect-ai-generated-essay" element={<LandingPage toolType="detect_ai_generated_essay" />} />
+              <Route path="/elevenlabs-voice-detector" element={<LandingPage toolType="elevenlabs_voice_detector" />} />
 
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
