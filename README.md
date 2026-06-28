@@ -26,12 +26,7 @@ Catch ChatGPT essays, Midjourney images, Sora deepfakes, and ElevenLabs voice cl
   <img src="docs/assets/demo.gif" width="80%" alt="DetectAi Demo GIF" />
 </p>
 
-<h3 align="center">Dashboard Gallery</h3>
-<p align="center">
-  <img src="frontend/public/step1.png" width="45%" alt="DetectAi UI" />
-  &nbsp;
-  <img src="frontend/public/step2.png" width="45%" alt="DetectAi Results" />
-</p>
+
 
 ---
 
