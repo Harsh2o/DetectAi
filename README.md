@@ -1,15 +1,22 @@
-# 🔍 DetectAi
+<div align="center">
 
-### The Human Standard
+<h1 align="center">🔍 DetectAi</h1>
 
-**Enterprise-grade, multi-modal AI content detection engine.**
-**Catch ChatGPT essays, Midjourney images, Sora deepfakes, and ElevenLabs voice clones — all in one platform.**
+<h3 align="center">The Human Standard</h3>
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-dtectai.tech-blue?style=for-the-badge&logo=vercel)](https://dtectai.tech)
-[![API Docs](https://img.shields.io/badge/API_Docs-Swagger-green?style=for-the-badge&logo=swagger)](https://detectai-api-fsftcaf4hyfqhqfc.koreacentral-01.azurewebsites.net/docs)
-[![License: All Rights Reserved](https://img.shields.io/badge/License-All_Rights_Reserved-red?style=for-the-badge)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
+<p align="center">
+<strong>Enterprise-grade, multi-modal AI content detection engine.</strong><br>
+Catch ChatGPT essays, Midjourney images, Sora deepfakes, and ElevenLabs voice clones — all in one platform.
+</p>
+
+<p align="center">
+<a href="https://dtectai.tech"><img src="https://img.shields.io/badge/Live_Demo-dtectai.tech-blue?style=for-the-badge&logo=vercel" alt="Live Demo"></a>
+<a href="https://detectai-api-fsftcaf4hyfqhqfc.koreacentral-01.azurewebsites.net/docs"><img src="https://img.shields.io/badge/API_Docs-Swagger-green?style=for-the-badge&logo=swagger" alt="API Docs"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-All_Rights_Reserved-red?style=for-the-badge" alt="License"></a>
+<br>
+<a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
+<a href="https://react.dev"><img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"></a>
+</p>
 
 </div>
 
