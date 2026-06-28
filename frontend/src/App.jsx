@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import { ClerkProvider, useAuth, AuthenticateWithRedirectCallback } from '@clerk/clerk-react';
 import { HelmetProvider } from 'react-helmet-async';
 import { ThemeProvider } from "./context/ThemeContext";
+import { Analytics as VercelAnalytics } from "@vercel/analytics/react";
 import LandingPage from "./pages/LandingPage";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
@@ -54,6 +55,7 @@ function App() {
       <HelmetProvider>
         <ThemeProvider>
           <Router>
+            <VercelAnalytics />
             <Routes>
               {/* Dedicated SEO Landing Pages */}
               <Route path="/" element={<LandingPage toolType="default" />} />
